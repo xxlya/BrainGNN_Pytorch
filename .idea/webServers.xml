@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="58b70e43-c401-48fa-983a-32280c016f57" name="ipag">
+        <fileTransfer accessType="SFTP" host="localhost" port="6000" sshConfigId="dba9c212-8899-4954-a857-6abbb7000465" sshConfig="xiaoxiaol@localhost:6000 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
