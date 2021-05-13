@@ -11,7 +11,8 @@ See the `requirements.txt` for environment configuration.
 pip install -r requirements.txt
 ```
 **PYG**
-To install pyg library, [lets go to the document](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html)
+
+To install pyg library, [please refer to the document](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html)
 
 ### Dataset 
 **ABIDE**
