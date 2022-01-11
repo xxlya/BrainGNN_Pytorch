@@ -24,7 +24,7 @@ import warnings
 import os
 
 warnings.filterwarnings("ignore")
-root_folder = '/home/azureuser/projects/BrainGNN/data/'
+root_folder = '/data/'
 data_folder = os.path.join(root_folder, 'ABIDE_pcp/cpac/filt_noglobal/')
 
 # Process boolean command line arguments
