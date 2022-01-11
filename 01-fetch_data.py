@@ -27,7 +27,7 @@ import sys
 
 # Input data variables
 code_folder = os.getcwd()
-root_folder = '/home/azureuser/projects/BrainGNN/data/'
+root_folder = '/data/'
 data_folder = os.path.join(root_folder, 'ABIDE_pcp/cpac/filt_noglobal/')
 if not os.path.exists(data_folder):
     os.makedirs(data_folder)
