@@ -70,15 +70,9 @@ dataset.data.y = dataset.data.y.squeeze()
 dataset.data.x[dataset.data.x == float('inf')] = 0
 
 tr_index,val_index,te_index = train_val_test_split(fold=fold)
-train_mask = torch.zeros(len(dataset), dtype=torch.uint8)
-val_mask = torch.zeros(len(dataset), dtype=torch.uint8)
-test_mask = torch.zeros(len(dataset), dtype=torch.uint8)
-train_mask[tr_index] = 1
-val_mask[val_index] = 1
-test_mask[te_index] = 1
-train_dataset = dataset[train_mask]
-val_dataset = dataset[val_mask]
-test_dataset = dataset[test_mask]
+train_dataset = dataset[tr_index]
+val_dataset = dataset[val_index]
+test_dataset = dataset[te_index]
 
 
 train_loader = DataLoader(train_dataset,batch_size=opt.batchSize, shuffle= True)
