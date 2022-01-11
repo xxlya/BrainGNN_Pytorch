@@ -1,5 +1,5 @@
 # Graph Neural Network for Brain Network Analysis
- A preliminary implementation of BrainGNN
+ A preliminary implementation of BrainGNN. The example presented here is on the public resting-state fMRI ABIDE for the convenience of development. This dataset was different from the ones used in our publication, which are cleaner task-fMRI. Still seeking solutions to mitigate the overfitting issue for noisy data.
 
 
 ## Usage
